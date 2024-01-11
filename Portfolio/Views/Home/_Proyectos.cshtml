@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Proyecto>
+
+@if (Model is not null && Model.Any())
+{
+    <section id="projects">
+
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <h1>Mis Proyectos</h1>
+            </div>
+            <div class="row justify-content-center">
+                @foreach (var proyecto in Model)
+                {
+                    <div class="col mb-4 container1">
+                        <img src="@proyecto.ImagenURL" class="card-img-top" alt="Imagen del proyecto" style="max-height: 200px; object-fit: cover;">
+                        <h2 class="heading1">@proyecto.Titulo (@proyecto.Tipo)</h2>
+                        <p class="para1">@proyecto.Descripcion</p>
+                        <a class="btn btn-primary btn-sm" href="@proyecto.Link" target="_blank" rel="noopener noreferrer">Visitar</a>
+                    </div>
+                }
+            </div>
+        </div>
+
+
+    </section>
+
+
+}
+else
+{
+    <div class="mt-4">
+        <p class="lead text-center">No hay proyectos disponibles actualmente.</p>
+    </div>
+}
+

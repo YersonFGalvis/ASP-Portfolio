@@ -1,0 +1,83 @@
+﻿<section id="experience">
+<div style="margin-bottom:50px">
+	<div class="row justify-content-md-center text-center">
+			<h1>Mi Experiencia</h1>
+			<div class="col habilities col-3" style="border-radius: 15px 0 0 15px;background-color: white; box-shadow: 0 5px 5px 0 black">
+			<i class="bi bi-window-stack"></i>
+			<h3>Backend</h3>
+			<p>
+
+			</p>
+
+				<p class="experience header">
+				Stack:
+			</p>
+
+			<p>
+				<div class="row">
+				@foreach (var hability in Model.HabilidadesBackend)
+				{
+						<div class="col-sm-3">
+							@Html.Raw(hability)
+						</div>
+				}
+				</div>
+			</p>
+
+			<p class="experience header">
+				Experiencia:
+			</p>
+
+			<ul>
+				<li>Web APIs</li>
+				<li>ASP.NET Core MVC</li>
+				<li>NodeJs</li>
+				<li>Entity Framework Core</li>
+				<li>Blazor</li>
+				<li>Dapper</li>
+				<li>SOLID</li>
+			</ul>
+
+		</div>
+
+			<div class="col habilities col-3" style="border-radius: 0 15px 15px 0;background-color: white; box-shadow: 0 5px 5px 0 black">
+			<i class="bi bi-code-slash"></i>
+			<h3>Frontend</h3>
+			<p>
+
+			</p>
+
+				<p class="experience header">
+				Stack:
+			</p>
+
+			<p>
+				<div class="row text-center">
+					@foreach (var hability in Model.HabilidadesFrontend)
+					{
+						<div>
+							@Html.Raw(hability)
+						</div>
+					}
+				</div>
+
+			</p>
+
+				<p class="experience header">
+				Experiencia:
+			</p>
+
+			<ul>
+				<li>Web APIs</li>
+				<li>ASP.NET Core MVC</li>
+				<li>Entity Framework Core</li>
+				<li>Blazor</li>
+				<li>Dapper</li>
+				<li>SOLID</li>
+			</ul>
+
+		</div>
+	</div>
+
+</div>
+</section>

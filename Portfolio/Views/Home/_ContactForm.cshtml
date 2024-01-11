@@ -1,0 +1,23 @@
+﻿
+
+<section id="contact">
+
+<div class="container">
+        <h1 style="margin-left:220px">Contactame!</h1>
+    <div class="row align-items-center">
+
+        <div class="col-md-4">
+
+                <img src="https://assets-global.website-files.com/5e51c674258ffe10d286d30a/5e535e838e249316920983c3_peep-sitting-5.svg" style="margin-left:150px" class="img-fluid">
+        </div>
+        <div class="col-md-8">
+            <form asp-controller="Home" asp-action="Contact" id="Contact">
+                    <input name="nombre" type="text" class="form-control mb-3" placeholder="Nombre" required />
+                    <input name="email" type="email" class="form-control mb-3" placeholder="Email" required />
+                    <textarea name="mensaje" class="form-control mb-3" placeholder="Mensaje" required></textarea>
+                     <input type="submit" class="btn btn-primary" value="Enviar" />
+            </form>
+        </div>
+    </div>
+</div>
+</section>

@@ -1,0 +1,10 @@
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.exe
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.dll
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.deps.json
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.runtimeconfig.json
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Portfolio.pdb
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\SendGrid.dll
+C:\Users\yerso\OneDrive\Escritorio\Asp Net\Portfolio\Portfolio\obj\Release\net6.0\PubTmp\Out\StarkbankEcdsa.dll
